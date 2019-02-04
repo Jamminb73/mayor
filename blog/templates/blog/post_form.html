@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<head>
+  <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<div class="content-section">
+  <form method="POST">
+    {% csrf_token %}
+    <fieldset class="form-group">
+      <legend class="border-bottem mb-4">Blog Post</legend>
+      {{ form | crispy }}
+    </fieldset>
+    <div class="form-group">
+      <button class="btn btn-outline-info" type="submit">Post</button>
+    </div>
+  </form>
+
+
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,50 @@
+body {
+  font-family: Roboto;
+  background: -webkit-linear-gradient(90deg, rgba(249, 5, 16, 1) 0%, rgba(0, 28, 255, 0.8) 100%);
+  background:    -moz-linear-gradient(90deg, rgba(249, 5, 16, 1) 0%, rgba(0, 28, 255, 0.8) 100%);
+  background:     -ms-linear-gradient(90deg, rgba(249, 5, 16, 1) 0%, rgba(0, 28, 255, 0.8) 100%);
+  background:      -o-linear-gradient(90deg, rgba(249, 5, 16, 1) 0%, rgba(0, 28, 255, 0.8) 100%);
+  background:         linear-gradient(90deg, rgba(249, 5, 16, 1) 0%, rgba(0, 28, 255, 0.8) 100%);
+ }
+
+.jumbotron {
+
+  background: -webkit-linear-gradient(90deg, rgba(249, 5, 16, 1) 0%, rgba(108, 9, 121, 1) 35%, rgba(0,28,255,1) 100%);
+  background:    -moz-linear-gradient(90deg, rgba(249, 5, 16, 1) 0%, rgba(108, 9, 121, 1) 35%, rgba(0,28,255,1) 100%);
+  background:     -ms-linear-gradient(90deg, rgba(249, 5, 16, 1) 0%, rgba(108, 9, 121, 1) 35%, rgba(0,28,255,1) 100%);
+  background:      -o-linear-gradient(90deg, rgba(249, 5, 16, 1) 0%, rgba(108, 9, 121, 1) 35%, rgba(0,28,255,1) 100%);
+  background:         linear-gradient(90deg, rgba(249, 5, 16, 1) 0%, rgba(108, 9, 121, 1) 35%, rgba(0,28,255,1) 100%);
+
+}
+
+.easement{
+  margin-left: 0;
+  margin-right: 200px,
+}
+.display-3{
+
+  text-align: right;
+  text-decoration: underline;
+}
+.display-4
+{
+  text-align: center;
+}
+.picture-frame {
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+.picture-frame img {
+    width: 100%;
+    height: auto;
+}
+.wwn{
+  background-color: DarkOrchid;
+  border: 1px solid black;
+
+}
+ .ms {
+   text-decoration: underline;
+
+ }
